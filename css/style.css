@@ -38,7 +38,7 @@ body{
 } 
 
 /* media quiry style */
-
+/* ipad style */
 @media screen and (max-width: 991px){
   .logo-image{
     width : 80px ;
@@ -57,6 +57,8 @@ body{
   } 
  
 }
+
+/* Nexes5 style */
 @media screen and (max-width: 767px){ 
   .logo-image{
     display: block ;
