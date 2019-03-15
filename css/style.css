@@ -1,6 +1,5 @@
 *{
   font-family: Verdan ;
-  margin: 0 ;
 }
 
 /* menu base styles */
@@ -12,15 +11,13 @@ body{
 .row {
   background: #fff ;
   margin-left: 0 ;
-  padding : 10px;
+  margin-top: 10px ;
+  margin-left: 10px  ;
+  margin-right: 10px ;
   box-sizing: border-box ;  
 }
 
-.row4-line{
-  text-align: center
-}
 .logo-image { 
-
   width: 100px ;
 }
 
@@ -29,8 +26,10 @@ body{
 }
 
 .row4-image{
-  margin-top: 10px ;
   width: 100% ;
+}
+.row4-line{
+  text-align: center
 }
  .name{
   width: 100% ;
@@ -41,16 +40,16 @@ body{
 /* media quiry style */
 
 @media screen and (max-width: 991px){
-  .logo_image{
-   width : 75% ;
+  .logo-image{
+    width : 80px ;
   }
   .main-image{
     height : 75% ; 
   }
-  h1,h2,h4 {
+  h1 {
     font-size: 30px ;
  } 
- h4 {
+  h4 {
   font-size: 15px ;
   } 
   h2{
@@ -65,7 +64,7 @@ body{
     margin-right: auto ;
     width : 50px ;
   }
-    .row3-line , .row4-line {
+    .row3-line {
         text-align: center ;
     }
     .row4-image{
