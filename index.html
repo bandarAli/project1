@@ -1,53 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css" >
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- <link rel="stylesheet" media="screen and (min-width:768px)" href="less768.css"> -->
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <div class="container">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <link rel="stylesheet" media="screen and (min-width:768px)" href="less768.css"> -->
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="container">
+    <header>
       <div class="row">
-
         <div class="col-md-6">
-          <img class="logo-image" src="img/nlogo.png" alt="">
+          <img src="img/nlogo.png" alt="logo image" class="logo-image">
         </div>
-        <div class="col-md-6">
-          <div class="name"> 
-              <h1><strong>Bander Ali Habish</strong></h1>
-              <h4>FrontEnd Devoloper</h4>
-          </div>  
-        </div>  
+
+        <div class="col-md-6 name">
+          <h1><strong>Bander Ali Habish</strong></h1>
+          <h4>FrontEnd Devoloper</h4>
+        </div>
       </div>
-      <div class="row">
-        <img class="main-image" src="img/main1.jpg" alt="Main Picture">  
+    </header>
+
+    <main>
+      <div class="row row2-line">
+        <div class="col-md-12">
+          <img src="img/main1.jpg" alt="Main Picture" class="main-image">
+        </div>
       </div>
+    
       <div class="row row3-line">
         <div class="col-md-12">
-         <h2>Featured Work</h2>
-        </div> 
+          <h2>Featured Work</h2>
+        </div>
       </div>
+    
       <div class="row row4-line">
         <div class="col-md-4">
           <img class="row4-image" src="img/html.jpg" alt="Html Pic">
           <h2>HTML</h2>
-          <a  href="https://www.udacity.com/course/intro-to-html-and-css--ud001">Udacity intro to html</a>
-        </div>  
-        <div class="col-md-4">
-            <img class="row4-image" src="img/css.png" alt="css Picture">
-            <h2>CSS</h2>
-            <a href="https://in.udacity.com/course/intro-to-html-and-css--ud001-india">Udacity intro to css</a>
+          <a href="https://www.udacity.com/course/intro-to-html-and-css--ud001" target="_blank"> Udacity intro to
+            html</a>
+          <p class="deff">HTML is the standard markup language for creating Web pages.HTML stands for Hyper Text Markup Language.HTML describes the structure of Web pages using markup.</p>
         </div>
+
         <div class="col-md-4">
-              <img class="row4-image" src="img/java.jpg" alt="Jscript Picture">
-              <h2>JavaScript</h2>
-              <a href="https://sa.udacity.com/course/intro-to-javascript--ud803">Udacity intro to javascript</a>
+          <img class="row4-image" src="img/css.png" alt="css Picture">
+          <h2>CSS</h2>
+          <a href="https://in.udacity.com/course/intro-to-html-and-css--ud001-india" target="_blank">Udacity intro to
+            css</a>
+          <p class="deff">CSS is designed to enable the separation of presentation and content, including layout,
+            colors, and fonts. This separation can improve content accessibility.</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="row4-image" src="img/java.jpg" alt="Jscript Picture">
+          <h2>JavaScript</h2>
+          <a href="https://sa.udacity.com/course/intro-to-javascript--ud803" target="_blank">Udacity intro to
+            javascript</a>
+          <p class="deff">JavaScript is one of the core technologies of the World Wide Web. JavaScript enables
+            interactive web pages and is an essential part of web applications.</p>
         </div>
       </div>
-    </div>     
-  </body>
+    </main>
+  </div>
+</body>
 </html>

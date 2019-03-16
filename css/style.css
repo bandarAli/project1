@@ -28,6 +28,10 @@ body{
 .row4-image{
   width: 100% ;
 }
+img {
+  width: 100%;
+  object-fit: contain;
+}
 .row4-line{
   text-align: center
 }
@@ -37,15 +41,15 @@ body{
   text-align : right ;
 } 
 
+.deff{
+  text-align: left ;
+  text-justify:auto ;
+}
+
 /* media quiry style */
 /* ipad style */
 @media screen and (max-width: 991px){
-  .logo-image{
-    width : 80px ;
-  }
-  .main-image{
-    height : 75% ; 
-  }
+  
   h1 {
     font-size: 30px ;
  } 
@@ -58,7 +62,7 @@ body{
  
 }
 
-/* Nexes5 style */
+/* Nexus5 style */
 @media screen and (max-width: 767px){ 
   .logo-image{
     display: block ;
@@ -81,4 +85,7 @@ body{
  h2{
   font-size: 20px ;
  }
+p {
+  font-size: 70% ;
+}
 }
